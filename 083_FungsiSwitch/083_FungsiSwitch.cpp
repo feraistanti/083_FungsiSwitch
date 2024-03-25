@@ -53,23 +53,28 @@ int main()
         case 1:
             input();
             cout << "Hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            system("Pause");
             break;
         case 2:
             input();
             cout << "Hasil pembagian = " << pembagian(bilSatu, bilDua) << endl;
+            system("Pause");
             break;
         case 3:
             input();
             cout << "Hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+            system("Pause");
             break;
         case 4:
             input();
             cout << "Hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            system("Pause");
             break;
         case 5:
             break;
         default:
             cout << "pilihan tidak ada" << endl;
+            system("Pause");
             break;
             system("CLS");
         }

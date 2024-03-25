@@ -43,5 +43,6 @@ int main()
         cout << "1, penjumlahan " << endl;
         cout << "2, pembagian " << endl;
         cout << "3, perkalian " << endl;
+        cout << "4 , pembagian " << endl;
     }
 }
